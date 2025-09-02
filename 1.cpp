@@ -1,11 +1,22 @@
 #include <iostream>
-#include <cmath> // Required for the sqrt() function
-
+using namespace std;
 int main() {
+	float r;
+	cin>> r;
+	cout << 3.1416f*r*r;
 
 
     return 0;
 }
+
+
+// 	float r;
+// 	cin>> r;
+// 	cout << 3.1416f*r*r;
+
+// 12323123
+// 4.77081e+14[Finished in 2.0s]
+
 
 // cout<<"hello";
 // ------------------------------------------1
