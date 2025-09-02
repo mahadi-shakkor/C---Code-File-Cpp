@@ -1,15 +1,10 @@
 #include <iostream>
-using namespace std;
-/*
+#include <cmath> // Required for the sqrt() function
 
-*/
-
-int main(){
+int main() {
 
 
-
-
-	return  0;
+    return 0;
 }
 
 // cout<<"hello";
@@ -102,7 +97,20 @@ int main(){
 
 // PROBLEN NO----------------------> | 6 |
 
+    // // Declare variables for the coefficients (a, b, c) and the roots (r1, r2)
+    // float a, b, c, r1, r2;
 
+    // // Prompt the user to enter the coefficients
+    // std::cout << "Enter a, b, c: ";
+    // std::cin >> a >> b >> c;
+
+    // // Calculate the two roots using the quadratic formula
+    // // r = (-b ± sqrt(b^2 - 4ac)) / 2a
+    // r1 = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+    // r2 = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
+
+    // // Print the calculated roots
+    // std::cout << "Roots are: " << r1 << " and " << r2 << std::endl;
 
 
 
@@ -114,7 +122,9 @@ int main(){
 // console----> | 6 |
 
 
-
+// Enter a, b, c: 1 -3 -10
+// Roots are: 5 and -2
+// [Finished in 33.6s]
 
 
 
