@@ -1,13 +1,55 @@
 #include <iostream>
 using namespace std;
+typedef float Radious;
+typedef float Area;
+
 int main() {
-	float r;
-	cin>> r;
-	cout << 3.1416f*r*r;
+
+	Radious r1;
+	Area a1;
+	cout<<"enter circlr redious : ";
+	cin>>r1;
+	a1=((float)22/(float)7)*r1*r1;
+	cout<<"Area : "<< a1;
+
+
 
 
     return 0;
 }
+// #include <iostream>
+// using namespace std;
+// typedef int marks;
+// int main() {
+// 	marks m1{10},m2{20};
+
+// 	cout<<m1<<"    "
+// 	<<m2;
+	
+
+
+//     return 0;
+// }10    20[Finished in 695ms]
+// ---------------------------------------
+
+// #include <iostream>
+// using namespace std;
+// enum cash {taka,dolar};
+// int main() {
+
+// 	cout<<dolar;
+	
+
+
+//     return 0;
+// }
+// 1[Finished in 691ms]
+
+
+
+// float r;
+// 	cin>> r;
+// 	cout <<  3.1416f*r*r;
 
 
 // 	float r;
